@@ -1,0 +1,9 @@
+{
+  "model": "best_model_mlp_adamw_seed4_run4.keras",
+  "mlp_mean_cm": 2.3746921816789954,
+  "mlp_p95_cm": 5.182416690439234,
+  "hybrid_mean_cm": 0.005615105263044532,
+  "hybrid_p95_cm": 0.00016943312335989421,
+  "avg_iters": 2.7325,
+  "joint_mae_deg": 16.446366906044833
+}

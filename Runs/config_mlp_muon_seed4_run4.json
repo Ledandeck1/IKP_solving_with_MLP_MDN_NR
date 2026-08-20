@@ -1,0 +1,14 @@
+{
+  "model": "mlp",
+  "optimizer": "muon",
+  "seed": 4,
+  "run_id": 4,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "n_mixes": null,
+  "input_dim": 3,
+  "output_dim": 6,
+  "checkpoint": "Model/best_model_mlp_muon_seed4_run4.keras",
+  "architecture": "256-128-64-32 ReLU"
+}

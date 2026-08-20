@@ -1,0 +1,9 @@
+{
+  "model": "best_model_mlp_muon_seed0_run0.keras",
+  "mlp_mean_cm": 2.2950471765544616,
+  "mlp_p95_cm": 5.005986464587366,
+  "hybrid_mean_cm": 0.008489204722000255,
+  "hybrid_p95_cm": 0.00015403909037563308,
+  "avg_iters": 2.719,
+  "joint_mae_deg": 16.4277816342215
+}

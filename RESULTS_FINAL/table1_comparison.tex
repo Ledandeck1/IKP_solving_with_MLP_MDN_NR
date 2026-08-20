@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Comprehensive comparison (mean $\pm$ std, $n=10$ seeds, filtered $\leq$10 cm). Best in \textbf{bold}.}
+\label{tab:comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Method & Optimizer & Error (cm) & P95 (cm) & MAE ($^\circ$) & $\tau{\leq}1$cm (\%) & $\tau{\leq}5$cm (\%) & Time (ms) \\
+\midrule
+MLP & ADAMW & $2.0526 \pm 0.0176$ & $4.0631$ & $16.15$ & $21.09$ & $15.6$ & \textbf{$100.0$} & $43.60$ \\
+MLP & MUON & $2.0211 \pm 0.0141$ & $4.0087$ & $16.15$ & $21.10$ & $17.0$ & \textbf{$100.0$} & $44.05$ \\
+MLP & SHAMPOO & $2.0506 \pm 0.0144$ & $4.0280$ & \textbf{$16.14$} & $21.08$ & $15.3$ & \textbf{$100.0$} & $44.24$ \\
+\midrule
+MDN & ADAMW & $0.4708 \pm 0.0417$ & $1.1055$ & $19.68$ & $26.76$ & $93.0$ & \textbf{$100.0$} & \textbf{$42.69$} \\
+\quad (oracle) & & $0.5508$ & $1.2309$ & — & — & — & — & — \\
+MDN & MUON & $0.5098 \pm 0.0550$ & $1.1596$ & $19.24$ & $26.22$ & $91.2$ & \textbf{$100.0$} & $43.03$ \\
+\quad (oracle) & & $0.5881$ & $1.3300$ & — & — & — & — & — \\
+MDN & SHAMPOO & $0.4676 \pm 0.0389$ & $1.0845$ & $19.36$ & $26.37$ & $93.3$ & \textbf{$100.0$} & $43.39$ \\
+\quad (oracle) & & $0.5418$ & $1.2205$ & — & — & — & — & — \\
+\midrule
+MLP+NR & ADAMW & \textbf{$0.0025 \pm 0.0005$} & \textbf{$0.0008$} & — & — & \textbf{$100.0$} & \textbf{$100.0$} & $44.48$ \\
+MLP+NR & MUON & \textbf{$0.0026 \pm 0.0007$} & \textbf{$0.0008$} & — & — & \textbf{$99.9$} & \textbf{$100.0$} & $44.93$ \\
+MLP+NR & SHAMPOO & \textbf{$0.0026 \pm 0.0004$} & \textbf{$0.0008$} & — & — & \textbf{$100.0$} & \textbf{$100.0$} & $45.12$ \\
+\midrule
+NR-only & BASELINE & $0.0649 \pm nan$ & $0.0548$ & — & — & $97.9$ & \textbf{$100.0$} & $2.48$ \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,9 @@
+{
+  "model": "best_model_mlp_shampoo_seed8_run8.keras",
+  "mlp_mean_cm": 2.3162923379119085,
+  "mlp_p95_cm": 4.985971676547962,
+  "hybrid_mean_cm": 0.009825504672236782,
+  "hybrid_p95_cm": 0.00014448523557401588,
+  "avg_iters": 2.72788,
+  "joint_mae_deg": 16.430573803907293
+}

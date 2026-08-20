@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Paired tests (Wilcoxon signed-rank, $n=10$). $d$: 0.2=small, 0.5=med, 0.8=large.}
+\label{tab:stats}
+\begin{tabular}{llcccc}
+\toprule
+Method & Comparison & $\Delta$ (cm) & 95\% CI & $p$ (Wilcoxon) & $d$ \\
+\midrule
+MLP & ADAMW vs MUON & $+0.0315$ & [+0.0244, +0.0386] & $0.0020$ (***) & $2.08$ \\
+MLP & ADAMW vs SHAMPOO & $+0.0020$ & [-0.0052, +0.0092] & $0.8457$ (ns) & $0.13$ \\
+MLP & MUON vs SHAMPOO & $-0.0295$ & [-0.0371, -0.0220] & $0.0020$ (***) & $-2.18$ \\
+MDN & ADAMW vs MUON & $-0.0391$ & [-0.0823, +0.0041] & $0.0840$ (ns) & $-0.84$ \\
+MDN & ADAMW vs SHAMPOO & $+0.0032$ & [-0.0302, +0.0366] & $0.9219$ (ns) & $0.08$ \\
+MDN & MUON vs SHAMPOO & $+0.0423$ & [-0.0078, +0.0924] & $0.1055$ (ns) & $0.94$ \\
+MLP+NR & ADAMW vs MUON & $-0.0001$ & [-0.0007, +0.0005] & $0.5566$ (ns) & $-0.17$ \\
+MLP+NR & ADAMW vs SHAMPOO & $-0.0001$ & [-0.0006, +0.0004] & $1.0000$ (ns) & $-0.24$ \\
+MLP+NR & MUON vs SHAMPOO & $-0.0000$ & [-0.0006, +0.0006] & $1.0000$ (ns) & $-0.01$ \\
+\bottomrule
+\end{tabular}
+\end{table}

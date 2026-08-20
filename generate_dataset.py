@@ -28,7 +28,7 @@ with open(output_file, 'w', newline='') as f:
         t3 = np.random.uniform(-90.0, 0.0)    # Elbow
         t4 = np.random.uniform(-90.0, 0.0)    # Wrist Pitch
         t5 = np.random.uniform(-90.0, 90.0)   # Wrist Roll
-        t6 = np.random.uniform(0.0, 90.0) # Wrist Twist
+        t6 = np.random.uniform(0.0,90.0) # Wrist Twist
 
         th0 = np.deg2rad(t1)
         th1 = np.deg2rad(t2)

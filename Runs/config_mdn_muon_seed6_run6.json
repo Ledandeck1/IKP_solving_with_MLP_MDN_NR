@@ -1,0 +1,14 @@
+{
+  "model": "mdn",
+  "optimizer": "muon",
+  "seed": 6,
+  "run_id": 6,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "n_mixes": 20,
+  "input_dim": 3,
+  "output_dim": 6,
+  "checkpoint": "Model/best_model_mdn_muon_seed6_run6.keras",
+  "architecture": "256-128-64-32 ReLU"
+}
